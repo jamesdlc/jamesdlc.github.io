@@ -1,0 +1,63 @@
+.navbar-inverse {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 18px;
+}
+
+.main-body {
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.about-content {
+  font-size: 25px;
+  text-align: center;
+}
+
+.tech-logo{
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.skills-table {
+  border-radius: 5px;
+  width: 50%;
+  margin: 0px auto;
+  float: none;
+}
+
+.favorite-tech {
+  text-align: center;
+}
+
+.other-tech {
+  text-align: center;
+}
+
+.applications-page {
+  position: relative;
+  top: 450px;
+  height: 3000px;
+}
+
+.app-image {
+  height: 250px;
+  width: 400px;
+  margin-left: 40px;
+  border-radius: 7px;
+}
+
+.app-image-row {
+  position: relative;
+  height: 250px;
+  margin-top: 30px;
+}
+
+.app-body {
+  position:relative;
+}
+
+.glyph-icons {
+  margin-left: 20px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
