@@ -73,3 +73,26 @@ html {
 .contact-prompt {
   text-align: center;
 }
+
+@media screen and (max-width:768px) {
+
+  .app-body {
+    position:relative;
+    text-align: center;
+  }
+
+  .app-image {
+    height: 150px;
+    width: 250px;
+    border-radius: 7px;
+  }
+
+  .app-image-row {
+    position: relative;
+    }
+
+  .tech-used-list h3 {
+    text-align: center;
+
+  }
+}
