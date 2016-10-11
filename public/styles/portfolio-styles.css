@@ -8,6 +8,9 @@ html {
   /*sanity check!*/
 }
 
+.mobility-test {
+  overflow-x: hidden;
+}
 .main-body {
   font-family: 'Ropa Sans', sans-serif;
 }
@@ -102,29 +105,29 @@ html {
 /*iPhone 5:*/
 @media screen and (device-aspect-ratio: 40/71) {
   .app-body {
-    position:relative !important;
-    text-align: center !important;
+    position:relative;
+    text-align: center;
   }
 
   .app-image {
-    height: 150px !important;
-    width: 250px !important;
-    border-radius: 7px !important;
+    height: 150px;
+    width: 250px;
+    border-radius: 7px;
   }
 
   .app-image-row {
-    position: relative !important;
+    position: relative;
     }
 
   .tech-used-list h3 {
-    text-align: center !important;
+    text-align: center;
   }
 }
 
 /*iPhone 6:*/
 @media screen and (device-aspect-ratio: 375/667) {
   h3 {
-    font-size: 50px !important;
+    font-size: 50px;
   }
   .main-body {
     font-size: 20px;
@@ -145,7 +148,7 @@ html {
 
   .app-image-row {
     position: relative;
-    height: 1700px;
+
   }
 
   .tech-used-list h3 {
@@ -157,51 +160,51 @@ html {
 /*iPhone 6 Plus:*/
 /*@media screen and (device-aspect-ratio: 16/9) {
   .app-body {
-    position:relative !important;
-    text-align: center !important;
+    position:relative;
+    text-align: center;
   }
 
   .app-image {
-    height: 150px !important;
-    width: 250px !important;
-    border-radius: 7px !important;
+    height: 150px;
+    width: 250px;
+    border-radius: 7px;
   }
 
   .app-image-row {
-    position: relative !important;
+    position: relative;
     }
 
   .tech-used-list h3 {
-    text-align: center !important;
+    text-align: center;
   }
 }*/
 /*iPad:*/
 @media screen and (device-aspect-ratio: 3/4) {
   h3 {
-    font-size: 50px !important;
+    font-size: 50px;
   }
   .main-body {
     font-size: 30px;
   }
 
   .app-body {
-    position:relative !important;
-    text-align: center !important;
+    position:relative;
+    text-align: center;
   }
 
   .app-image {
-    height: 400px !important;
-    width: 600px !important;
-    border-radius: 7px !important;
+    height: 400px;
+    width: 600px;
+    border-radius: 7px;
     margin-left: 80px;
   }
 
   .app-image-row {
-    margin-bottom: 600px !important;
-    position: relative !important;
+    margin-bottom: 600px;
+    position: relative;
   }
 
   .tech-used-list h3 {
-    text-align: center !important;
+    text-align: center;
   }
 }
