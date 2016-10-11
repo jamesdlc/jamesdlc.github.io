@@ -74,8 +74,11 @@ html {
   text-align: center;
 }
 
-@media screen and (max-width:768px) {
 
+
+
+/*iPhone < 5:*/
+/*@media screen and (device-aspect-ratio: 2/3) {
   .app-body {
     position:relative;
     text-align: center;
@@ -93,6 +96,110 @@ html {
 
   .tech-used-list h3 {
     text-align: center;
+  }
+}*/
 
+/*iPhone 5:*/
+/*@media screen and (device-aspect-ratio: 40/71) {
+  .app-body {
+    position:relative !important;
+    text-align: center !important;
+  }
+
+  .app-image {
+    height: 150px !important;
+    width: 250px !important;
+    border-radius: 7px !important;
+  }
+
+  .app-image-row {
+    position: relative !important;
+    }
+
+  .tech-used-list h3 {
+    text-align: center !important;
+  }
+}*/
+
+/*iPhone 6:*/
+/*@media screen and (device-aspect-ratio: 375/667) {
+  h3 {
+    font-size: 50px !important;
+  }
+  .main-body {
+    font-size: 20px;
+  }
+
+  .app-body {
+    position:relative !important;
+    text-align: center !important;
+  }
+
+  .app-image {
+    height: 400px !important;
+    width: 600px !important;
+    border-radius: 7px !important;
+    margin-left: 80px;
+  }
+
+  .app-image-row {
+    margin-bottom: 600px !important;
+    position: relative !important;
+  }
+
+  .tech-used-list h3 {
+    text-align: center !important;
+  }
+}*/
+
+/*iPhone 6 Plus:*/
+/*@media screen and (device-aspect-ratio: 16/9) {
+  .app-body {
+    position:relative !important;
+    text-align: center !important;
+  }
+
+  .app-image {
+    height: 150px !important;
+    width: 250px !important;
+    border-radius: 7px !important;
+  }
+
+  .app-image-row {
+    position: relative !important;
+    }
+
+  .tech-used-list h3 {
+    text-align: center !important;
+  }
+}*/
+/*iPad:*/
+@media screen and (device-aspect-ratio: 3/4) {
+  h3 {
+    font-size: 50px !important;
+  }
+  .main-body {
+    font-size: 30px;
+  }
+
+  .app-body {
+    position:relative !important;
+    text-align: center !important;
+  }
+
+  .app-image {
+    height: 400px !important;
+    width: 600px !important;
+    border-radius: 7px !important;
+    margin-left: 80px;
+  }
+
+  .app-image-row {
+    margin-bottom: 600px !important;
+    position: relative !important;
+  }
+
+  .tech-used-list h3 {
+    text-align: center !important;
   }
 }
