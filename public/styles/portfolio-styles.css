@@ -77,32 +77,6 @@ html {
   text-align: center;
 }
 
-
-
-
-/*iPhone < 5:*/
-/*@media screen and (device-aspect-ratio: 2/3) {
-  .app-body {
-    position:relative;
-    text-align: center;
-  }
-
-  .app-image {
-    height: 150px;
-    width: 250px;
-    border-radius: 7px;
-  }
-
-  .app-image-row {
-    position: relative;
-    }
-
-  .tech-used-list h3 {
-    text-align: center;
-  }
-}*/
-
-
 /*iPhone 6 portrait*/
 @media only screen
 and (min-device-width : 375px)
@@ -173,79 +147,16 @@ and (orientation : landscape) {
   }
 }
 
-
-/*iphone 6 landscape */
-/*@media only screen
-    and (min-device-width : 375px)
-    and (max-device-width : 667px)
-    and (width : 667px)
-    and (height : 375px)
-    and (orientation : landscape)
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 667/375)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2) {
-
-      h3 {
-        font-size: 50px;
-      }
-      .main-body {
-        font-size: 20px;
-      }
-
-      .app-body {
-        position:relative;
-        text-align: center;
-      }
-
-      .app-image {
-        height: 400px;
-        width: 600px;
-        border-radius: 10px;
-        margin-left: 77px;
-
-      }
-
-      .app-image-row {
-        position: relative;
-
-      }
-
-      .tech-used-list h3 {
-        text-align: center;
-      }*/
-}
-
-/*iPhone 5:*/
-/*@media screen and (device-aspect-ratio: 40/71) {
-  .app-body {
-    position:relative;
-    text-align: center;
-  }
-
-  .app-image {
-    height: 150px;
-    width: 250px;
-    border-radius: 7px;
-  }
-
-  .app-image-row {
-    position: relative;
-    }
-
-  .tech-used-list h3 {
-    text-align: center;
-  }
-}*/
-
-/*iPhone 6:*/
-/*@media screen and (device-aspect-ratio: 375/667) {
+/*iPhone 6+ portrait*/
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
   h3 {
-    font-size: 50px;
+    font-size: 60px !important;
   }
   .main-body {
-    font-size: 20px;
+    font-size: 30px !important;
   }
 
   .app-body {
@@ -268,38 +179,19 @@ and (orientation : landscape) {
 
   .tech-used-list h3 {
     text-align: center;
-
   }
-}*/
+}
 
-/*iPhone 6 Plus:*/
-/*@media screen and (device-aspect-ratio: 16/9) {
-  .app-body {
-    position:relative;
-    text-align: center;
-  }
-
-  .app-image {
-    height: 150px;
-    width: 250px;
-    border-radius: 7px;
-  }
-
-  .app-image-row {
-    position: relative;
-    }
-
-  .tech-used-list h3 {
-    text-align: center;
-  }
-}*/
-/*iPad:*/
-@media screen and (device-aspect-ratio: 3/4) {
+/*iPhone 6+ landscape*/
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
   h3 {
-    font-size: 50px;
+    font-size: 50px !important;
   }
   .main-body {
-    font-size: 30px;
+    font-size: 20px !important;
   }
 
   .app-body {
@@ -308,18 +200,166 @@ and (orientation : landscape) {
   }
 
   .app-image {
-    height: 400px;
-    width: 600px;
-    border-radius: 7px;
-    margin-left: 80px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 148px;
+
   }
 
   .app-image-row {
-    margin-bottom: 600px;
     position: relative;
+
   }
 
   .tech-used-list h3 {
     text-align: center;
+  }
+}
+
+/*iPad mini landscape*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+  h3 {
+    font-size: 35px !important;
+  }
+  .main-body {
+    font-size: 20px;
+  }
+
+  .app-body {
+    position:relative;
+  }
+
+  .app-image {
+    height: 150px !important;
+    width: 250px !important;
+    border-radius: 7px;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-top: 35px;
+  }
+
+  .app-image-row {
+    position: relative;
+    height: 400px;
+  }
+
+  .tech-used-list h3 {
+    text-align: center;
+    font-size: 17px !important;
+  }
+}
+
+
+/*iPad portrait*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  h3 {
+    font-size: 50px !important;
+  }
+  .main-body {
+    font-size: 20px !important;
+  }
+
+  .app-body {
+    position:relative;
+    text-align: center;
+  }
+
+  .app-image {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 148px;
+
+  }
+
+  .app-image-row {
+    position: relative;
+
+  }
+
+  .tech-used-list h3 {
+    text-align: center;
+  }
+}
+
+/*iPad landscape*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+  h3 {
+    font-size: 35px !important;
+  }
+  .main-body {
+    font-size: 20px;
+  }
+
+  .app-body {
+    position:relative;
+  }
+
+  .app-image {
+    height: 150px !important;
+    width: 250px !important;
+    border-radius: 7px;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-top: 35px;
+  }
+
+  .app-image-row {
+    position: relative;
+    height: 400px;
+  }
+
+  .tech-used-list h3 {
+    text-align: center;
+    font-size: 17px !important;
+  }
+}
+
+/*iPad retina landscape*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  h3 {
+    font-size: 35px !important;
+  }
+  .main-body {
+    font-size: 20px;
+  }
+
+  .app-body {
+    position:relative;
+  }
+
+  .app-image {
+    height: 150px !important;
+    width: 250px !important;
+    border-radius: 7px;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-top: 35px;
+  }
+
+  .app-image-row {
+    position: relative;
+    height: 400px;
+  }
+
+  .tech-used-list h3 {
+    text-align: center;
+    font-size: 17px !important;
   }
 }
