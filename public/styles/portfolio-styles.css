@@ -81,7 +81,7 @@ html {
 
 
 /*iPhone < 5:*/
-@media screen and (device-aspect-ratio: 2/3) {
+/*@media screen and (device-aspect-ratio: 2/3) {
   .app-body {
     position:relative;
     text-align: center;
@@ -100,10 +100,125 @@ html {
   .tech-used-list h3 {
     text-align: center;
   }
+}*/
+
+
+/*iPhone 6 portrait*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  h3 {
+    font-size: 60px !important;
+  }
+  .main-body {
+    font-size: 30px !important;
+  }
+
+  .app-body {
+    position:relative;
+    text-align: center;
+  }
+
+  .app-image {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 77px;
+
+  }
+
+  .app-image-row {
+    position: relative;
+
+  }
+
+  .tech-used-list h3 {
+    text-align: center;
+  }
+}
+
+/*iPhone 6 landscape*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+  h3 {
+    font-size: 50px !important;
+  }
+  .main-body {
+    font-size: 20px !important;
+  }
+
+  .app-body {
+    position:relative;
+    text-align: center;
+  }
+
+  .app-image {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 148px;
+
+  }
+
+  .app-image-row {
+    position: relative;
+
+  }
+
+  .tech-used-list h3 {
+    text-align: center;
+  }
+}
+
+
+/*iphone 6 landscape */
+/*@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (width : 667px)
+    and (height : 375px)
+    and (orientation : landscape)
+    and (color : 8)
+    and (device-aspect-ratio : 375/667)
+    and (aspect-ratio : 667/375)
+    and (device-pixel-ratio : 2)
+    and (-webkit-min-device-pixel-ratio : 2) {
+
+      h3 {
+        font-size: 50px;
+      }
+      .main-body {
+        font-size: 20px;
+      }
+
+      .app-body {
+        position:relative;
+        text-align: center;
+      }
+
+      .app-image {
+        height: 400px;
+        width: 600px;
+        border-radius: 10px;
+        margin-left: 77px;
+
+      }
+
+      .app-image-row {
+        position: relative;
+
+      }
+
+      .tech-used-list h3 {
+        text-align: center;
+      }*/
 }
 
 /*iPhone 5:*/
-@media screen and (device-aspect-ratio: 40/71) {
+/*@media screen and (device-aspect-ratio: 40/71) {
   .app-body {
     position:relative;
     text-align: center;
@@ -122,10 +237,10 @@ html {
   .tech-used-list h3 {
     text-align: center;
   }
-}
+}*/
 
 /*iPhone 6:*/
-@media screen and (device-aspect-ratio: 375/667) {
+/*@media screen and (device-aspect-ratio: 375/667) {
   h3 {
     font-size: 50px;
   }
@@ -155,7 +270,7 @@ html {
     text-align: center;
 
   }
-}
+}*/
 
 /*iPhone 6 Plus:*/
 /*@media screen and (device-aspect-ratio: 16/9) {
