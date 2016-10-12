@@ -69,8 +69,8 @@ html {
 .glyph-icons {
   margin-left: 8px;
   margin-right: 8px;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
 
 .contact-prompt {
@@ -86,8 +86,8 @@ html {
   margin-top: 200px;
 }
 .contact-page {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 150px;
+  margin-bottom: 300px;
 }
 
 /*iPhone 5 portrait*/
