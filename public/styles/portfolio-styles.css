@@ -77,6 +77,88 @@ html {
   text-align: center;
 }
 
+.index-page{
+  margin-top: 100px;
+}
+.about-page{
+}
+.applications-page{
+  margin-top: 200px;
+}
+.contact-page {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+/*iPhone 5 portrait*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  h3 {
+    font-size: 60px !important;
+  }
+  .main-body {
+    font-size: 30px !important;
+  }
+
+  .app-body {
+    position:relative;
+    text-align: center;
+  }
+
+  .app-image {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    margin-left: 77px;
+
+  }
+
+  .app-image-row {
+    position: relative;
+  }
+
+  .tech-used-list h3 {
+    text-align: center;
+  }
+}
+
+/*iPhone 5 landscape*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  h3 {
+    font-size: 50px !important;
+  }
+  .main-body {
+    font-size: 20px !important;
+  }
+
+  .app-body {
+    position:relative;
+    text-align: center;
+  }
+
+  .app-image {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 148px;
+
+  }
+
+  .app-image-row {
+    position: relative;
+
+  }
+
+  .tech-used-list h3 {
+    text-align: center;
+  }
+}
+
 /*iPhone 6 portrait*/
 @media only screen
 and (min-device-width : 375px)

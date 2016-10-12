@@ -7,16 +7,7 @@ app.use(express.static(__dirname));
 
 
 app.get('/', function homepage(req, res) {
-    res.sendFile(__dirname + '/views/index.html');
-});
-app.get('/about', function homepage(req, res) {
-    res.sendFile(__dirname + '/views/about.html');
-});
-app.get('/applications', function homepage(req, res) {
-    res.sendFile(__dirname + '/views/applications.html');
-});
-app.get('/contact', function homepage(req, res) {
-    res.sendFile(__dirname + '/views/contact.html');
+    res.sendFile(__dirname + '/views/test.html');
 });
 
 
