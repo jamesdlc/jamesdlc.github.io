@@ -7,7 +7,7 @@ app.use(express.static(__dirname));
 
 
 app.get('/', function homepage(req, res) {
-    res.sendFile(__dirname + '/views/test.html');
+    res.sendFile(__dirname + '/views/index.html');
 });
 
 
