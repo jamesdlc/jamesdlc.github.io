@@ -44,11 +44,43 @@ html {
   position: relative;
 }
 
+.a-image {
+  height: 200px;
+  width: 300px;
+  border-radius: 7px;
+}
+
+.app-image-container {
+  perspective: 700;
+}
+
 .app-image {
+  position: relative;
   height: 200px;
   width: 300px;
   margin-left: 40px;
   border-radius: 7px;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+
+.front, .back {
+  position: absolute;;
+  backface-visibility: hidden;
+}
+.front{
+  height: 200px;
+  width: 300px;
+}
+.back {
+  height: 200px;
+  width: 300px;
+  transform: rotateY(180deg);
+}
+
+.app-image:hover {
+  transform: rotateY(180deg);
 }
 
 .app-image-row {
@@ -181,7 +213,6 @@ and (orientation : portrait) {
     width: 600px;
     border-radius: 10px;
     margin-left: 77px;
-
   }
 
   .app-image-row {
