@@ -219,7 +219,6 @@ and (orientation : landscape) {
     border-radius: 7px;
   }
 
-
   .front, .back {
     position: absolute;
     backface-visibility: hidden;
@@ -268,12 +267,14 @@ and (orientation : portrait) {
     height: 400px;
     width: 600px;
     margin-left: 155px;
+    position: relative;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
   }
 
   .app-image-container {
     perspective: 700;
   }
-
 
   .app-image {
     position:relative;
@@ -281,7 +282,6 @@ and (orientation : portrait) {
     width: 600px;
     border-radius: 7px;
   }
-
 
   .front, .back {
     position: absolute;
@@ -329,6 +329,9 @@ and (orientation : landscape) {
     height: 200px;
     width: 500px;
     margin-left: 210px;
+    position: relative;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
   }
 
   .app-image-container {
@@ -341,7 +344,6 @@ and (orientation : landscape) {
     width: 500px;
     border-radius: 7px;
   }
-
 
   .front, .back {
     position: absolute;
@@ -397,12 +399,16 @@ and (orientation : portrait) {
     perspective: 700;
   }
 
-
   .app-image {
     position:relative;
     height: 400px;
     width: 600px;
     border-radius: 7px;
+  }
+
+  .front, .back {
+    position: absolute;
+    backface-visibility: hidden;
   }
 
   .front{
