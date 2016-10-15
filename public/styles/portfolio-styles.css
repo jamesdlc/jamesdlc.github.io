@@ -40,6 +40,10 @@ html {
   text-align: center;
 }
 
+.navbar-brand {
+  margin-right: 10px;
+}
+
 .applications-page {
   position: relative;
 }
@@ -393,6 +397,9 @@ and (orientation : portrait) {
     height: 400px;
     width: 600px;
     margin-left: 160px;
+    position: relative;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
   }
 
   .app-image-container {
@@ -452,6 +459,9 @@ and (orientation : landscape) {
     height: 200px;
     width: 500px;
     margin-left: 210px;
+    position: relative;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
   }
 
   .app-image-container {
@@ -513,6 +523,9 @@ and (orientation : portrait) {
     height: 400px;
     width: 600px;
     margin-left: 160px;
+    position: relative;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
   }
 
   .app-image-container {
@@ -568,6 +581,9 @@ and (-webkit-min-device-pixel-ratio: 1)  {
     height: 200px;
     width: 500px;
     margin-left: 230px;
+    position: relative;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
   }
 
   .app-image-container {
@@ -620,6 +636,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
     height: 200px;
     width: 500px;
     margin-left: 230px;
+    position: relative;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
   }
 
   .app-image-container {
@@ -672,6 +691,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     height: 200px;
     width: 500px;
     margin-left: 230px;
+    position: relative;
+    transition: all 0.6s ease;
+    transform-style: preserve-3d;
   }
 
   .app-image-container {
