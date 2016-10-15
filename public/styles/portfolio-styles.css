@@ -59,16 +59,19 @@ html {
   height: 200px;
   width: 300px;
   margin-left: 40px;
-  border-radius: 7px;
   transition: all 0.6s ease;
   transform-style: preserve-3d;
 }
 
+.app-image-wrapper:hover {
+  transform: rotateY(180deg);
+}
 
 .front, .back {
-  position: absolute;;
+  position: absolute;
   backface-visibility: hidden;
 }
+
 .front{
   height: 200px;
   width: 300px;
@@ -149,14 +152,12 @@ and (orientation : portrait) {
     perspective: 700;
   }
 
-
   .app-image {
     position:relative;
     height: 400px;
     width: 600px;
     border-radius: 7px;
   }
-
 
   .front, .back {
     position: absolute;;
@@ -544,7 +545,6 @@ and (orientation : portrait) {
     text-align: center;
   }
 }
-
 /*iPad mini landscape*/
 @media only screen
 and (min-device-width : 768px)
@@ -655,48 +655,48 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
-h3, h1 {
-  font-size: 40px !important;
-}
-.main-body {
-  font-size: 20px !important;
-  text-align: center;
-}
+  h3, h1 {
+    font-size: 40px !important;
+  }
+  .main-body {
+    font-size: 20px !important;
+    text-align: center;
+  }
 
-.app-image-wrapper {
-  height: 200px;
-  width: 500px;
-  margin-left: 230px;
-}
+  .app-image-wrapper {
+    height: 200px;
+    width: 500px;
+    margin-left: 230px;
+  }
 
-.app-image-container {
-  perspective: 700;
-}
+  .app-image-container {
+    perspective: 700;
+  }
 
-.app-image {
-  position:relative;
-  height: 200px;
-  width: 500px;
-  border-radius: 7px;
-}
+  .app-image {
+    position:relative;
+    height: 200px;
+    width: 500px;
+    border-radius: 7px;
+  }
 
-.front, .back {
-  position: absolute;
-}
+  .front, .back {
+    position: absolute;
+  }
 
-.front{
-  height: 200px;
-  width: 500px;
-}
+  .front{
+    height: 200px;
+    width: 500px;
+  }
 
-.back {
-  height: 200px;
-  width: 500px;
-  transform: rotateY(180deg);
-}
+  .back {
+    height: 200px;
+    width: 500px;
+    transform: rotateY(180deg);
+  }
 
-.app-row {
-  position: relative;
-  margin-top: 50px;
-}
+  .app-row {
+    position: relative;
+    margin-top: 50px;
+  }
 }
