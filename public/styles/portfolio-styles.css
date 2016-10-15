@@ -160,7 +160,7 @@ and (orientation : portrait) {
   }
 
   .front, .back {
-    position: absolute;;
+    position: absolute;
   }
 
   .front{
@@ -220,7 +220,7 @@ and (orientation : landscape) {
 
 
   .front, .back {
-    position: absolute;;
+    position: absolute;
   }
 
   .front{
@@ -282,7 +282,7 @@ and (orientation : portrait) {
 
 
   .front, .back {
-    position: absolute;;
+    position: absolute;
   }
 
   .front{
@@ -341,7 +341,7 @@ and (orientation : landscape) {
 
 
   .front, .back {
-    position: absolute;;
+    position: absolute;
   }
 
   .front{
@@ -403,7 +403,7 @@ and (orientation : portrait) {
 
 
   .front, .back {
-    position: absolute;;
+    position: absolute;
   }
 
   .front{
@@ -461,7 +461,7 @@ and (orientation : landscape) {
   }
 
   .front, .back {
-    position: absolute;;
+    position: absolute;
   }
 
   .front{
@@ -523,7 +523,7 @@ and (orientation : portrait) {
 
 
   .front, .back {
-    position: absolute;;
+    position: absolute;
   }
 
   .front{
