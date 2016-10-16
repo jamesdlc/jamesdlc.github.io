@@ -6,7 +6,6 @@
 #fixed {
     position:fixed;
     z-index: 1;
-    margin-top: -100px;
 }
 
 html {
@@ -117,14 +116,14 @@ html {
   text-align: center;
 }
 
-.index-page{
+.applications-page{
+margin-top: 400px;
+}
+
+.app-table{
   margin-top: 100px;
 }
-.about-page{
-}
-.applications-page{
-  margin-top: 200px;
-}
+
 .contact-page {
   margin-top: 150px;
   margin-bottom: 300px;
