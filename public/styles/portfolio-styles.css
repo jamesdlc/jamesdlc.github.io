@@ -3,6 +3,12 @@
   font-size: 18px;
 }
 
+#fixed {
+    position:fixed;
+    z-index: 1;
+    margin-top: -100px;
+}
+
 html {
   /*background-color: blue;*/
   /*sanity check!*/
