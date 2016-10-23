@@ -42,9 +42,6 @@
         </div>
       </div>
     </div>
-
-
-
     <div class="mobility-test about-page">
       <div class="col-md-12">
         <div class="skills">
@@ -86,99 +83,26 @@
     <div class="mobility-test applications-page ">
       <a name="applications-page"></a>
       <div class="app-table col-md-12 col-sm-12 col-xs-12">
-        <div class="row app-row">
-          <div class="app-image-container col-xl-4 col-lg-offset-1 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-            <div class="app-image-wrapper">
-              <div class="front">
-                <img class="app-image" src="/public/images/gafront.png">
-              </div>
-              <div class="back">
-                <img class="app-image" src="/public/images/gaback.png">
-              </div>
-            </div>
-          </div>
-          <div class="app-body col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">
-            <h3>General Assembláge</h3>
-            <div class="tech-used-list">
-              Ruby on Rails / HTML / CSS / JavaScript / jQuery / PostgreSQL / Materialize / Ransack / will_paginate / bcrypt
-            </div>
-            <p>
-              General Assembláge is a social networking tool that connects General Assembly alumni across all immersive courses and all General Assembly locations to facilitate learning and to foster collaboration.<br>
-              <a href="https://github.com/mattericbrown/general-assemblage">GitHub</a> / <a href="https://general-assemblage.herokuapp.com/">Launch General Assembláge</a>
-            </p>
-          </div>
-        </div>
-        <div class="row app-row">
-          <div class="app-image-container col-xl-4 col-lg-offset-1 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-            <div class="app-image-wrapper">
-              <div class="front">
-                <img class="app-image" src="/public/images/whowouldwinfront.png">
-              </div>
-              <div class="back">
-                <img class="app-image" src="/public/images/whowouldwinback.png">
-              </div>
-            </div>
-          </div>
-          <div class="app-body col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">
-            <h3>Who Would Win?</h3>
-            <div class="tech-used-list">
-              Ruby on Rails / HTML / CSS / PostgreSQL / Bootstrap /  bCrypt / Ransack
-            </div>
-            <p>
-              A sports app that returns a simulated outcome between matchups and can potentially predict results for upcoming matchups. Built in forum-style discussion board, “Smack Talk”. <br>
-              <a href="https://github.com/jamesdlc/whowouldwin">GitHub</a> / <a href="https://realwhowouldwin.herokuapp.com/">Launch Who Would Win?</a>
-            </p>
-          </div>
-        </div>
-        <div class="row app-row">
-          <div class="app-image-container col-xl-4 col-lg-offset-1 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-
-            <div class="app-image-wrapper">
-              <div class="front">
-                <img class="app-image" src="/public/images/soundfinderfront.png">
-              </div>
-              <div class="back">
-                <img class="app-image" src="/public/images/soundfinderback.png">
-              </div>
-            </div>
-          </div>
-          <div class="app-body col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">
-            <h3>Sound Finder</h3>
-              <div class="tech-used-list">
-                AngularJS / HTML / CSS / NodeJS / ExpressJS / BootStrap / Spotify API
-              </div>
-            <p>
-              Search for you favorite artist and Sound Finder will suggest 20 different similar sounding artists.  Click on the "Listen On Spotify" button to listen to the recommendation on your Spotify App! <br>
-              <a href="https://github.com/jamesdlc/SoundFinder">GitHub</a> / <a href="https://sound-finder.herokuapp.com/">Launch Sound Finder</a>
-            </p>
-          </div>
-        </div>
-        <div class="row app-row">
-          <div class="app-image-container col-xl-4 col-lg-offset-1 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-
-            <div class="app-image-wrapper">
-              <div class="front">
-                <img class="app-image" src="/public/images/nomadfront.png">
-              </div>
-              <div class="back">
-                <img class="app-image" src="/public/images/nomadback.png">
-              </div>
-            </div>
-          </div>
-          <div class="app-body col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">
-            <h3>Nomad</h3>
-            <div class="tech-used-list">
-              Ruby on Rails / HTML / CSS / PostgreSQL / Sass / Materialize  / bcrypt
-            </div>
-            <p>
-              Nomad is a crowdsourced travel community app / travel guide where users can post advice and tips about their favorite cities.  <br>
-              <a href="https://github.com/sophn11/nomad">GitHub</a> / <a href="https://nomad30.herokuapp.com/">Launch Nomad</a>
-            </p>
-          </div>
-        </div>
+        <script type="text/javascript">
+          for (var i = 0; i < applications.length; i++) {
+            document.write('<div class="row app-row">');
+              document.write('<div class="app-image-container col-xl-4 col-lg-offset-1 col-lg-3 col-md-12 col-sm-12 col-xs-12">');
+                document.write('<div class="app-image-wrapper">');
+                  document.write('<div class="front"><img class="app-image" src=' + applications[i].images[0] + '></div>');
+                  document.write('<div class="back"><img class="app-image" src=' + applications[i].images[1] + '></div>');
+                document.write('</div>');
+              document.write('</div>');
+              document.write('<div class="app-body col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">');
+                document.write("<h3>" + applications[i].name + "</h3>")
+                document.write('<div class="tech-used-list">' + applications[i].techList + '</div><p>')
+                document.write(applications[i].description + "<br />");
+                document.write("<a href=" + applications[i].gitHubLink + ">GitHub</a> / <a href=" + applications[i].herokuLink + ">Launch " + applications[i].name + "</a></p>")
+              document.write('</div>');
+            document.write('</div>');
+          }
+        </script>
       </div>
     </div>
-
     <div class="mobility-test contact-page">
       <a name="contact-page"></a>
       <div class="contact-page col-md-12">
@@ -190,6 +114,5 @@
         </div>
       </div>
     </div>
-
   </body>
 </html>
