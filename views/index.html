@@ -10,9 +10,13 @@
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/public/scripts/app.js"></script>
 
   </head>
   <body class="main-body">
+
+
+<!-- /#wrapper -->
     <div id="fixed" class="menu col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <div class="nav-bar">
         <nav class="navbar navbar-inverse">
@@ -39,6 +43,8 @@
       </div>
     </div>
 
+
+
     <div class="mobility-test about-page">
       <div class="col-md-12">
         <div class="skills">
@@ -46,11 +52,11 @@
             <h4>These are some of my favorite technologies</h4>
             <table class="skills-table">
               <tr>
-                <td><img class="tech-logo" src="/public/images/rubyonrails.png"></td>
-                <td><img class="tech-logo" src="/public/images/javascript.png"></td>
-                <td><img class="tech-logo" src="/public/images/c++.png"></td>
-                <td><img class="tech-logo" src="/public/images/angular.png"></td>
-                <td><img class="tech-logo" src="/public/images/github.png"></td>
+                <script type="text/javascript">
+                for (var i = 0; i < favoriteTech.length; i++) {
+                  document.write('<td><img class="tech-logo" src=' + favoriteTech[i] + '></td>')
+                }
+                </script>
               </tr>
             </table>
           </div>
@@ -58,22 +64,19 @@
             <h4>More technologies I enjoy working with</h4>
             <table class="skills-table">
               <tr>
-                <td><img class="tech-logo" src="/public/images/html5.png"></td>
-                <td><img class="tech-logo" src="/public/images/css3.png"></td>
-                <td><img class="tech-logo" src="/public/images/jquery.png"></td>
-                <td><img class="tech-logo" src="/public/images/mongodb.png"></td>
-                <td><img class="tech-logo" src="/public/images/postgresql.png"></td>
-                <td><img class="tech-logo" src="/public/images/expressjs.png"></td>
-                <td><img class="tech-logo" src="/public/images/nodejs.png"></td>
+                <script type="text/javascript">
+                  for (var i = 0; i < otherTech.length/2; i++) {
+                    document.write('<td><img class="tech-logo" src=' + otherTech[i] + '></td>')
+                  }
+                </script>
+
               </tr>
               <tr>
-                <td><img class="tech-logo" src="/public/images/heroku.png"></td>
-                <td><img class="tech-logo" src="/public/images/trello.png"></td>
-                <td><img class="tech-logo" src="/public/images/balsamiq.png"></td>
-                <td><img class="tech-logo" src="/public/images/photoshop.png"></td>
-                <td><img class="tech-logo" src="/public/images/illustrator.png"></td>
-                <td><img class="tech-logo" src="/public/images/bootstrap.png"></td>
-                <td><img class="tech-logo" src="/public/images/materialize.png"></td>
+                <script type="text/javascript">
+                  for (var i = otherTech.length/2; i < otherTech.length; i++) {
+                    document.write('<td><img class="tech-logo" src=' + otherTech[i] + '></td>')
+                  }
+                </script>
               </tr>
             </table>
           </div>
