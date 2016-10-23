@@ -11,27 +11,32 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/public/scripts/app.js"></script>
-
   </head>
   <body class="main-body">
-
-
-<!-- /#wrapper -->
     <div id="fixed" class="menu col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <div class="nav-bar">
-        <nav class="navbar navbar-inverse">
-          <ul class="nav navbar-nav">
-            <li><a class="" href="#index-page">About</a></li>
-            <li><a class="" href="#applications-page">Applications</a></li>
-            <li><a class="" href="#contact-page">Contact Me</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a class="navbar-brand" href="#">James dlC</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
+      <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav">
+             <li><a class="" href="#index-page">About</a></li>
+             <li><a class="" href="#applications-page">Applications</a></li>
+             <li><a class="" href="#contact-page">Contact Me</a></li>
+           </ul>
+           <ul class="nav navbar-nav navbar-right">
+             <li class="active"><a href="/">James dlC<span class="sr-only">(current)</span></a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div><!--/.container-fluid -->
+     </nav>
+   </div>
     <div class="mobility-test index-page">
       <a class="jump-anchor" name="index-page">
       </a>
@@ -66,7 +71,6 @@
                     document.write('<td><img class="tech-logo" src=' + otherTech[i] + '></td>')
                   }
                 </script>
-
               </tr>
               <tr>
                 <script type="text/javascript">
