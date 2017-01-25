@@ -1,0 +1,70 @@
+body {
+  padding-top: 60px;
+  text-align: center;
+  color: gray;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-icon {
+  padding: 10px;
+}
+
+#navbar-default-override {
+  background-color: white;
+  border-color: white;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+}
+
+.nav-bar-item:hover {
+  border-bottom: 2px solid gray;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  padding: 4px;
+}
+
+.dlc {
+  position: static;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 15px;
+}
+
+.header {
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.app-image {
+  height: 30%;
+  width: 30%;
+}
+
+.app-image:hover {
+  height: 32%;
+  width: 32%;
+}
+
+.app-description {
+  text-align: left;
+}
+
+.app-buttons {
+  padding: 5px;
+  text-transform: none;
+  color: gray;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
