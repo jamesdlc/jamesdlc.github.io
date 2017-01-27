@@ -3,6 +3,7 @@ body {
   text-align: center;
   color: gray;
   font-family: 'Open Sans';
+  height: 100%;
 }
 
 table {
@@ -19,6 +20,13 @@ table {
   border-color: white;
   letter-spacing: .5rem;
   text-transform: uppercase;
+}
+
+.home-bg{
+  background: url(../public/images/adventuretime.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
 }
 
 .nav-bar-item:hover {

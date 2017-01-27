@@ -1,9 +1,10 @@
 $(document).ready(function(){
+  
+  callPage('templates/home.html');
 
   $('.ajax-target').on('click', function (e) {
     e.preventDefault();
     var pageRef = $(this).attr('href');
-
     callPage(pageRef);
   });
 
