@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('a').on('click', function (e) {
+  $('.ajax-target').on('click', function (e) {
     e.preventDefault();
     var pageRef = $(this).attr('href');
 
