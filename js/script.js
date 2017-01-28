@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  
+
   callPage('templates/home.html');
 
   $('.ajax-target').on('click', function (e) {
@@ -7,6 +7,10 @@ $(document).ready(function(){
     var pageRef = $(this).attr('href');
     callPage(pageRef);
   });
+
+  $('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
 
   function callPage ( pageRefInput ) {
     $.ajax({
