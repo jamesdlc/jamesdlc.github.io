@@ -109,3 +109,7 @@ hr {
 .resume-table {
   margin-bottom: 70px;
 }
+
+ td {
+  vertical-align: top;
+}
