@@ -87,3 +87,17 @@ hr {
 .contact-buttons {
   margin-top: 10%;
 }
+
+/*resume page*/
+
+.resume-container {
+  text-align: left;
+}
+
+.resume-row > td {
+  padding-top: 20px;
+}
+
+.title {
+  font-weight: 700;
+}
