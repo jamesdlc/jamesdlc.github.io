@@ -11,9 +11,13 @@ table {
   margin-right: auto;
 }
 
-.skill-icon {
-  padding: 10px;
+.header {
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
 }
+
+/*nav*/
 
 #navbar-default-override {
   background-color: white;
@@ -22,6 +26,13 @@ table {
   text-transform: uppercase;
 }
 
+.nav-bar-item:hover {
+  border-bottom: 2px solid gray;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+/*home*/
+
 .home-bg{
   background: url(../public/images/adventuretime.jpg);
   background-size: cover;
@@ -29,14 +40,7 @@ table {
   height: 90vh;
 }
 
-.nav-bar-item:hover {
-  border-bottom: 2px solid gray;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
-}
-
-.image-container {
-  padding: 4px;
-}
+/*about page*/
 
 .dlc {
   position: static;
@@ -46,11 +50,16 @@ table {
   padding: 15px;
 }
 
-.header {
-  text-transform: uppercase;
-  letter-spacing: .5rem;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+.about-text {
+  text-align: left;
+  font-size: 18px;
 }
+
+.skill-icon {
+  padding: 10px;
+}
+
+/*application page*/
 
 .app-image {
   height: 30%;
@@ -73,11 +82,6 @@ table {
   color: gray;
 }
 
-.about-text {
-  text-align: left;
-  font-size: 18px;
-}
-
 hr {
     border: 0;
     height: 1px;
@@ -98,6 +102,10 @@ hr {
   padding-top: 20px;
 }
 
-.title {
+.resume-title {
   font-weight: 700;
+}
+
+.resume-table {
+  margin-bottom: 70px;
 }
