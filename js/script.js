@@ -1,6 +1,13 @@
 $(document).ready(function(){
+  var homeClasses = ['adventuretime','arch','bridge','bush','clouds','dream','peak','pier'];
 
   callPage('templates/home.html');
+  
+  setInterval(function(){
+    var value = homeClasses[Math.floor(Math.random() * homeClasses.length)];
+    $("#random-img").removeClass();
+    $("#random-img").addClass(value);
+  }, 30000);
 
   $('.ajax-target').on('click', function (e) {
     e.preventDefault();
@@ -11,6 +18,9 @@ $(document).ready(function(){
   $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
+
+
+
 
   function callPage ( pageRefInput ) {
     $.ajax({

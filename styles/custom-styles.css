@@ -33,8 +33,57 @@ table {
 
 /*home*/
 
-.home-bg{
+.adventuretime {
   background: url(../public/images/adventuretime.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.arch {
+  background: url(../public/images/arch.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.bridge {
+  background: url(../public/images/bridge.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.bush {
+  background: url(../public/images/bush.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.clouds {
+  background: url(../public/images/clouds.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.dream {
+  background: url(../public/images/dream.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.peak {
+  background: url(../public/images/peak.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.pier {
+  background: url(../public/images/pier.jpg);
   background-size: cover;
   background-position: center;
   height: 90vh;
